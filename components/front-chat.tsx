@@ -8,6 +8,7 @@ export function FrontChat() {
       id="front-chat-script"
       src="https://chat-assets.frontapp.com/v1/chat.bundle.js"
       onLoad={initFrontChat}
+      strategy="lazyOnload"
     ></Script>
   );
 }
