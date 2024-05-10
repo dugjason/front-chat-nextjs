@@ -9,7 +9,7 @@ export function FrontChat() {
       src="https://chat-assets.frontapp.com/v1/chat.bundle.js"
       onLoad={initFrontChat}
       strategy="lazyOnload"
-      async
+      defer
     ></Script>
   );
 }
